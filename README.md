@@ -15,7 +15,7 @@ To start the application, run `yarn start`.
 * In those migration files is a function that allows you to define how data models have changed in your application.
 * Import all the migration files into an index file in `migrations/` so they are all accessible via one object. For example: `import * as migrations from './migrations'`.
 * Import your migrations and `gaiaMigrate` into a root component of your app.
-* Perform `gaiaMigrate.checkForUpdates(migrations)` in `componentWillMount()`, after confirming the user is signed in with Blockstack.
+* Perform `gaiaMigrate.checkForUpdates(migrations)` after confirming the user is signed in with Blockstack.
 * Gaia Migrate will filter for migrations that were added since `lastUpdated`'s value.
 * It then runs each of the migration files on whichever files of data were affected.
 
