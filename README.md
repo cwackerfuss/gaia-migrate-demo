@@ -1,5 +1,5 @@
-# Coins
-## Cryptocurrency Portfolio
+# Gaia Migrate
+## Library for adding migration scripts to your Gaia NoSQL stores
 -
 
 ## Installing and running the App
