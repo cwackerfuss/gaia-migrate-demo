@@ -1,0 +1,31 @@
+{
+  "presets": [
+    ["es2015"],
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "components": "./components",
+          "static": "./static",
+          "assets": "./assets",
+          "migrations": "./migrations"
+        }
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ]
+  ],
+  "ignore": []
+}
